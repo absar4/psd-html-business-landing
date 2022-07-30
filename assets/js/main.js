@@ -48,10 +48,6 @@ $('document').ready(function () {
   }, {
     offset: '60%',
   });
-
-  $(window).load(function() {
-   $('.preloader').fadeOut('slow');
-  });
   
   $(document).scroll(function () {
     var $nav = $(".pos-fix");
