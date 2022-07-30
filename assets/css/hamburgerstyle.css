@@ -1,0 +1,55 @@
+:root {
+    --my-ham-width: 44px;
+}
+
+
+.McButton {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -22px;
+    margin-top: -22px;
+    width: 44px;
+    height: 33px;
+    cursor: pointer; */
+
+
+    position: absolute;
+    top: 100%;
+    right: 2%;
+    margin-left: -22px;
+    margin-top: -22px;
+    width: 44px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.McButton b {
+    /* position: absolute;
+    left: 0;
+    width: 44px;
+    height: 3px;
+    background-color: #ffbf00;
+
+
+
+     */
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #ffbf00;
+
+}
+
+.McButton b:nth-child(1) {
+    top: 0;
+}
+
+.McButton b:nth-child(2) {
+    top: 50%;
+}
+
+.McButton b:nth-child(3) {
+    top: 100%;
+}

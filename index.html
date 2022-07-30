@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/myslider.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/utilities.css">
+    <link rel="stylesheet" href="./assets/css/isotop-style.css">
+    <link rel="stylesheet" href="./assets/css/hamburgerstyle.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Business Landing Page</title>
+</head>
+
+<body>
+    <section id="hero">
+        <div class="slideshow-container">
+
+            <header class="pt-32px w-1170 z-index-22 pos-fix left-50 translate-x-50 fixed-nav">
+                <nav class="bg-dark d-flex justify-centent-between">
+                    <div class="logo">
+                        <img src="./assets/img/logo.png" alt="logo image">
+                    </div>
+                    <!-- menu  -->
+                    <a id="mymenu" class="McButton" data="hamburger-menu">
+                        <b></b>
+                        <b></b>
+                        <b></b>
+                    </a>
+                
+                    <!-- !menu  -->
+                    <ul class="myulnav d-flex gap-37 color-fff-childern text-transform-childern text-decoration-none">
+                        <li><a href="#hero" class="nav-link nav-active">home</a></li>
+                        <li><a href="#services" class="myservices nav-link">service</a></li>
+                        <li><a href="#filters" class="myportfolio nav-link">portfolio</a></li>
+                        <li><a href="#contact" class="nav-link">contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="mySlides ">
+                <img class="" src="./assets/img/hero-bg.png" alt="" style="width: 100%; height: 100vh;" />
+                <div class="text waypoint-animation-SlideIn text-hero">
+                    <h1>Have an amazing business meeting</h1>
+                    <p>Small business with big dreams</p>
+                    <button class="hero-btn">Learn more</button>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <img class="" src="./assets/img/hero-bg-1.png" alt="" style="width: 100%; height: 100vh;" />
+                <div class="text waypoint-animation-SlideIn text-hero">
+                    <h1>Have an amazing business meeting</h1>
+                    <p>Small business with big dreams</p>
+                    <button class="hero-btn">Learn more</button>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <img class="" src="./assets/img/hero-bg-2.png" alt="" style="width: 100%; height: 100vh;" />
+                <div class="text waypoint-animation-SlideIn text-hero">
+                    <h1>Have an amazing business meeting</h1>
+                    <p>Small business with big dreams</p>
+                    <button class="hero-btn">Learn more</button>
+                </div>
+            </div>
+
+            <!-- Next & Previous Btns  -->
+            <a onclick="plusSlides(-1)" class="prev"> &#10094; </a>
+            <a onclick="plusSlides(1)" class="next"> &#10095; </a>
+            <!-- The dots -->
+            <div class="alldots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="services">
+        <div class="my-container">
+            <div class="row d-flex justify-centent-between align-items-center fd-col">
+                <div class="col-services">
+                    <h1 class="services-heading">What we do</h1>
+                </div>
+                <div class="col-services">
+                    <div class="ico">
+                        <div class="img-container">
+                            <img src="./assets/img/web-dev-ico.png" alt="ico">
+                        </div>
+                        <div>
+                            <h4>Web Design</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ico">
+                        <div class="img-container">
+                            <img src="./assets/img/ui-ux-design-ico.png" alt="ico">
+                        </div>
+                        <div>
+                            <h4>UI/UX Design</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ico">
+                        <div class="img-container">
+                            <img src="./assets/img/photography-dev-ico.png" alt="ico">
+                        </div>
+                        <div>
+                            <h4>Photography</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ico" style="margin-bottom: 0;">
+                        <div class="img-container">
+                            <img src="./assets/img/app-dev-ico.png" alt="ico">
+                        </div>
+                        <div>
+                            <h4>App Development</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="excaptional-customer-service">
+        <div class="my-container">
+            <div class="exceptional-col">
+                <h1>exceptional Customer service</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor Lorem ipsum dolor sit amet
+                    consectetur adipiscing elit.
+                </p>
+                <button>Need to help? let's chat</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="filters">
+        <div class="my-container">
+            <h1>Our Portfolio</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, ipsa!</p>
+
+            <div class="button-group filters-button-group">
+                <button class="button is-checked" data-filter="*">all</button>
+                <button class="button" data-filter=".web">WEB</button>
+                <button class="button" data-filter=".uiux">ui/ux</button>
+                <button class="button " data-filter=".photography">photography</button>
+                <button class="button" data-filter=".branding">branding</button>
+            </div>
+
+            <div class="grid">
+                <div class="element-item web">
+                    <img src="./assets/img/photography-docs.png" alt="">
+                </div>
+                <div class="element-item photography">
+                    <img src="./assets/img/photography-charag.png" alt="">
+                </div>
+                <div class="element-item branding">
+                    <img src="./assets/img/photography-hair-dryer.png" alt="">
+                </div>
+                <div class="element-item photography">
+                    <img src="./assets/img/photography-crossed-pencils.png" alt="">
+                </div>
+                <div class="element-item photography">
+                    <img src="./assets/img/photography-stationary.png" alt="">
+                </div>
+                <div class="element-item branding">
+                    <img src="./assets/img/photography-holder.png" alt="">
+                </div>
+                <div class="element-item photography branding">
+                    <img src="./assets/img/photography-alarm.png" alt="">
+                </div>
+                <div class="element-item photography ">
+                    <img src="./assets/img/photography-nature-in-hands.png" alt="">
+                </div>
+                <div class="element-item uiux">
+                    <img src="./assets/img/ui_ux-phones-peoples-standing.png" alt="">
+                </div>
+                <div class="element-item uiux">
+                    <img src="./assets/img/ui_ux-phones.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="counters">
+
+        <div class="d-flex my-container justify-centent-center align-items-center all-boxes fd-col">
+
+            <div class="counter-box">
+                <img src="./assets/img/satisfied-clients.png" alt="">
+                <span class="counter lato-bold px35" data-number="3800"></span>
+                <p class="lato-regular px20">Satisfied Clients</p>
+            </div>
+
+            <div class="counter-box">
+                <img src="./assets/img/projects-completed.png" style="margin-top: 3px;" alt="">
+                <span class="counter lato-bold px35" data-number="4510"></span>
+                <p class="lato-regular px20">Projects Completed</p>
+            </div>
+
+            <div class="counter-box">
+                <img src="./assets/img/positive-feedbacks.png" style="margin-top: 7px;" alt="">
+                <span class="counter lato-bold px35" data-number="2800"></span>
+                <p class="lato-regular px20">Positive Feedbacks</p>
+            </div>
+
+            <div class="counter-box">
+                <img src="./assets/img/freebies.png" style="margin-top: 5px;" alt="">
+                <span class="counter lato-bold px35" data-number="55000"></span>
+                <p class="lato-regular px20">Freebies Released</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="my-container">
+            <h1 class="contact-heading">Contact</h1>
+            <p class="contact-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, ipsa!</p>
+            <div class="d-flex color-fff-childern text-left forms-address-flex-settings fd-col centerh1">
+                <div class="contact-form">
+                    <h2 class="lato-regular px33 color-f ">Leave A Message</h2>
+                    <form class="d-flex flex-direction-column justify-centent-center">
+                        <input type="text"  placeholder="Full Name">
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Subject">
+                        <textarea class="textareacolor" id="" cols="30" rows="10" onclick="this.innerText = '';">Message</textarea>
+                        <input type="button" value="Send">
+                    </form>
+                </div>
+                <div class="address-container">
+                    <h2 class="lato-regular px33 ">Address:</h2>
+    
+                    <div class="d-flex align-items-center justify-centent-around address-icon-content-container ">
+                        <div class="img addressicons">
+                            <img src="./assets/img/address-home-icon.png" alt="">
+                        </div>
+                        <p class="content  lato-regular px16">
+                            69/A , Road 3, Mohammadia Housing Ltd <br>
+                            Dhaka - 1207
+                        </p>
+                    </div>
+    
+                    <div class="d-flex align-items-center justify-centent-around address-icon-content-container">
+                        <div class="img addressicons">
+                            <img src="./assets/img/address-phone-icon.png" alt="">
+                        </div>
+                        <p class="content  lato-regular px16">
+                            +880 1750727522 <br>
+                            +880 1630742521
+                        </p>
+                    </div>
+    
+                    <div class="d-flex align-items-center justify-centent-around address-icon-content-container">
+                        <div class="img addressicons">
+                            <img src="./assets/img/address-envlope-icon.png" alt="">
+                        </div>
+                        <p class="content  lato-regular px16">
+                            muslimmahin@gmail.com
+                        </p>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="my-container d-flex  footerchildcontainer">
+
+            <p class="lato-regular "> 
+                All right Researved © Muslim Mahin 2016
+            </p>
+            <div class="footer-icons color-fff-childern">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <!-- <py-script>print("Hello World")</py-script> -->
+    </footer>
+
+    <script src="./assets/js/jquery-3.1.0.min.js"></script>
+    <script src="./assets/js/velocity.min.js"></script>
+    <script src="./assets/js/jquery.waypoints.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/countMe.min.js"></script>
+    <script src="./assets/js/isotop.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
