@@ -36,6 +36,9 @@ function showSlides(n) {
 }
 
 
+function myloader() {
+  $('.loading').fadeOut("slow");
+}
 
 // jQuery starts.....
 $('document').ready(function () {
